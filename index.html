@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="#" method="post">
+        <div class="field">
+          <label for="city"> Enter the city of your choice</label>
+          <input type="text" name="city" id="city" />
+        </div>
+        <div class="actions">
+          <button type="button" id="view">View weather</button>
+        </div>
+      </form>
+    </div>
+    <script>
+      () => {
+        document.getElementById("view").addEventListener("click", function () {
+          let city = document.querySelector(".field input").value;
+          city = city.toString();
+          let url =
+            "https://api.openweathermap.org/data/2.5/weather?q=" +
+            city +
+            "&appid=19db39090cafc53c9839d5b7aeb3d339";
+        });
+        console.log(url);
+      };
+    </script>
+  </body>
+</html>
+
+<!-- https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=19db39090cafc53c9839d5b7aeb3d339 ---->
