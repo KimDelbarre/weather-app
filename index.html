@@ -2,35 +2,68 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!--Import Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@200;400&family=Ubuntu&display=swap" rel="stylesheet">
+    <!--Import css-->
+    <link href="main.css" rel="stylesheet"/>
+    <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather app</title>
+<title>Weather app</title>
   </head>
+  <!---Content-->
   <body>
-    <div class="container">
-      <form action="#" method="post">
-        <div class="field">
-          <label for="city"> Enter the city of your choice</label>
-          <input type="text" name="city" id="city" />
+    <div class="app-wrap">
+      <header>
+        <input
+          type="text"
+          autocomplete="off"
+          class="search-box"
+          placeholder="Enter the city of your choice"
+        />
+      </header>
+      <main>
+        <section class="location">
+          <h3>Today</h3>
+          <div class="date">Tuesday 11 August 2020</div>
+          <div class="city">Ledeberg, BE</div>
+
+        </section>
+          <div class="current">
+          <div class="temp">30<span>°C</span></div>
+          <div class="weather">Sunny</div>
+          <div class="hi-low-text">min  &nbsp;  &nbsp;  max</div>
+          <div class="hi-low">19°C / 33°C</div>
         </div>
-        <div class="actions">
-          <button type="button" id="view">View weather</button>
+
+      </main>
+      <section class="container">
+        <div class="card">
+          <div class="date2">Tuesday 11 August 2020</div>
+          <div class="temp2">20<span>°C</span></div>
+          <div class="weather2">Sunny</div>
+
         </div>
-      </form>
-    </div>
-    <script>
-      () => {
-        document.getElementById("view").addEventListener("click", function () {
-          let city = document.querySelector(".field input").value;
-          city = city.toString();
-          let url =
-            "https://api.openweathermap.org/data/2.5/weather?q=" +
-            city +
-            "&appid=19db39090cafc53c9839d5b7aeb3d339";
-        });
-        console.log(url);
-      };
-    </script>
+        <div class="card">
+          <div class="date3">Tuesday 11 August 2020</div>
+          <div class="temp3">20<span>°C</span></div>
+          <div class="weather3">Sunny</div>
+
+        </div>
+        <div class="card">
+          <div class="date4">Tuesday 11 August 2020</div>
+          <div class="temp4">20<span>°C</span></div>
+          <div class="weather4">Sunny</div>
+
+        </div>
+        <div class="card">
+          <div class="date5">Tuesday 11 August 2020</div>
+          <div class="temp5">20<span>°C</span></div>
+          <div class="weather5">Sunny</div>
+
+        </div>
+      </section>
+
+
+    <script type="text/javascript" src="main-forecast.js"></script>
   </body>
 </html>
-
-<!-- https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=19db39090cafc53c9839d5b7aeb3d339 ---->
