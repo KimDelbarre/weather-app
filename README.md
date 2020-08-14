@@ -1,16 +1,20 @@
 # weather-app
 
+using https://openweathermap.org/forecast5
 
-## Mission objectives
+
+## Objectives
 In this challenge you will use and consolidate your knowledge on:
 
 A typical AJAX flow: send asynchronous requests to a remote server and process the results
 DOM manipulation: changing the DOM based on the results of the AJAX requests
 Learn to aggregate and parse data fetched from an api
 
+
 ## The Mission
 You have been sent abroad for a 10-month work mission. Your family and friends back home ask you about the weather where you live ALL. THE. TIME.
 Enough is enough, you decide to build a small web application for them so that you can free your time to talk about more interesting topics.
+
 
 ## Specifications
 **Must-have features**
@@ -24,6 +28,7 @@ Enough is enough, you decide to build a small web application for them so that y
 - Allow the user to compare the weather in two cities
 - Use the API of https://unsplash.com/ to show a photo of the city they entered in the form.
 
+
 ## Instructions
-Create an account on OpenWeather (https://openweathermap.org/forecast5), and generate a key
+Create an account on OpenWeather, and generate a key
 Get the weather data using axios or use the native JS fetch() method
