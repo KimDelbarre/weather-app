@@ -107,6 +107,7 @@ function dateBuilder(d) {
   ];
 
   let day = days[d.getDay()];
+  console.log(day);
   let date = d.getDate();
   let month = months[d.getMonth()];
   let year = d.getFullYear();
@@ -130,6 +131,13 @@ function dateBuilder2(d) {
     "December",
   ];
   let days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
     "Sunday",
     "Monday",
     "Tuesday",
@@ -170,6 +178,13 @@ function dateBuilder3(d) {
     "Thursday",
     "Friday",
     "Saturday",
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
   ];
 
   let day = days[d.getDay() + 2];
@@ -203,6 +218,13 @@ function dateBuilder4(d) {
     "Thursday",
     "Friday",
     "Saturday",
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
   ];
 
   let day = days[d.getDay() + 3];
@@ -229,6 +251,13 @@ function dateBuilder5(d) {
     "December",
   ];
   let days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
     "Sunday",
     "Monday",
     "Tuesday",
