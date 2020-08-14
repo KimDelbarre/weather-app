@@ -1,6 +1,8 @@
 # weather-app
+Check out my live weather app  on https://kimdelbarre.github.io/weather-app/
 
-using https://openweathermap.org/forecast5
+
+***Database source: https://openweathermap.org/forecast5***
 
 
 ## Objectives
