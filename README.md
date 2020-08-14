@@ -30,5 +30,5 @@ Enough is enough, you decide to build a small web application for them so that y
 
 
 ## Instructions
-Create an account on OpenWeather, and generate a key
+Create an account on OpenWeather, and generate a key.
 Get the weather data using axios or use the native JS fetch() method
